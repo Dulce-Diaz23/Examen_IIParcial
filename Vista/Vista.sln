@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33424.131
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vista", "Vista\Vista.csproj", "{59F5C679-13FE-4A6C-8202-2A745CC87CC9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entidades", "Entidads\Entidades.csproj", "{EC656287-2484-45F1-86DF-76B7DB039A21}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Datoss", "Datoss\Datoss.csproj", "{F837AF32-AC3C-4A25-A9DC-17BC632E3F67}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{59F5C679-13FE-4A6C-8202-2A745CC87CC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59F5C679-13FE-4A6C-8202-2A745CC87CC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59F5C679-13FE-4A6C-8202-2A745CC87CC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59F5C679-13FE-4A6C-8202-2A745CC87CC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC656287-2484-45F1-86DF-76B7DB039A21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC656287-2484-45F1-86DF-76B7DB039A21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC656287-2484-45F1-86DF-76B7DB039A21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC656287-2484-45F1-86DF-76B7DB039A21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F837AF32-AC3C-4A25-A9DC-17BC632E3F67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F837AF32-AC3C-4A25-A9DC-17BC632E3F67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F837AF32-AC3C-4A25-A9DC-17BC632E3F67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F837AF32-AC3C-4A25-A9DC-17BC632E3F67}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5894263E-BC42-48BF-A7E2-0D1E3BA265FF}
+	EndGlobalSection
+EndGlobal
