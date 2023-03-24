@@ -99,7 +99,7 @@ namespace Datoss
             {
                 StringBuilder sql = new StringBuilder();
                 sql.Append("UPDATE  usuario SET ");
-                sql.Append("  Nombre = @Nombre, Contrasena = @Contrasena, Correo = @Correo, Rol = @Rol,EstaActivo = @EstaActivo,");
+                sql.Append("  Nombre = @Nombre, Contrasena = @Contrasena, Correo = @Correo, Rol = @Rol,EstaActivo = @EstaActivo");
                 sql.Append(" WHERE CodigoUsuario = @CodigoUsuario;");
                 using (MySqlConnection _conexion = new MySqlConnection(cadena))
                 {

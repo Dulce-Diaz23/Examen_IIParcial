@@ -69,7 +69,7 @@ namespace Vista
         private void GuardarButton_Click(object sender, EventArgs e)
         {
             Usuario user = new Usuario();
-            if (tipoOperacion == "Nuevo")
+            if (tipoOperacion == "Agregar")
             {
 
                 if (string.IsNullOrEmpty(CodigoUsuarioTextBox.Text))
