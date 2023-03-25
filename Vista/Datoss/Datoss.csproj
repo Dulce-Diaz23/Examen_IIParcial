@@ -79,6 +79,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ClienteDB.cs" />
+    <Compile Include="TicketDB.cs" />
     <Compile Include="UsuarioDB.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

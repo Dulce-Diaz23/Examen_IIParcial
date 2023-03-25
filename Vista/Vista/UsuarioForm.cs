@@ -193,5 +193,31 @@ namespace Vista
             dt = usuarioDB.DevolverUsuarios();
             UsuariosDataGridView1.DataSource = dt;
         }
+
+        private void EliminarButton_Click(object sender, EventArgs e)
+        {
+            if (UsuariosDataGridView1.SelectedRows.Count > 0)
+            {
+                DialogResult resultado = MessageBox.Show("Esta seguro de eliminar registro?", "Advertencia", MessageBoxButtons.YesNo);
+
+                if (resultado == DialogResult.Yes)
+                {
+                    bool elimino = usuarioDB.Eliminar(UsuariosDataGridView1.CurrentRow.Cells["CodigoUsuario"].Value.ToString());
+                    if (elimino)
+                    {
+                        LimpiarControles();
+                        DesabilitarControles();
+                        TraerUsuarios();
+                        MessageBox.Show("Registro eliminado");
+                    }
+                    else
+                    {
+                        MessageBox.Show("No se pudo eliminar el registro");
+                    }
+                }
+
+
+            }
+        }
     }
 }

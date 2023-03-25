@@ -18,14 +18,14 @@ namespace Vista
 
         private void ClienteToolStripButton_Click(object sender, System.EventArgs e)
         {
-            Cliente clienteForm = new Cliente();
+            ClienteForm clienteForm = new ClienteForm();
             clienteForm.MdiParent = this;
             clienteForm.Show();
         }
 
         private void TicketToolStripButton_Click(object sender, System.EventArgs e)
         {
-            Ticket ticketForm = new Ticket();
+            TicketForm ticketForm = new TicketForm();
             ticketForm.MdiParent = this;
             ticketForm.Show();
         }

@@ -93,7 +93,7 @@
             this.toolStripTabItem1.Panel.TabIndex = 2;
             this.toolStripTabItem1.Panel.Text = "Administracion de Usuarios";
             this.toolStripTabItem1.Position = 0;
-            this.toolStripTabItem1.Size = new System.Drawing.Size(154, 19);
+            this.toolStripTabItem1.Size = new System.Drawing.Size(164, 30);
             this.toolStripTabItem1.Tag = "1";
             this.toolStripTabItem1.Text = "Administracion de Usuarios";
             // 
@@ -109,7 +109,7 @@
             this.toolStripTabItem2.Panel.TabIndex = 3;
             this.toolStripTabItem2.Panel.Text = "Administracion de Clientes";
             this.toolStripTabItem2.Position = 1;
-            this.toolStripTabItem2.Size = new System.Drawing.Size(150, 19);
+            this.toolStripTabItem2.Size = new System.Drawing.Size(160, 30);
             this.toolStripTabItem2.Tag = "2";
             this.toolStripTabItem2.Text = "Administracion de Clientes";
             // 
@@ -143,7 +143,7 @@
             this.toolStripTabItem3.Panel.TabIndex = 4;
             this.toolStripTabItem3.Panel.Text = "Servicios";
             this.toolStripTabItem3.Position = 2;
-            this.toolStripTabItem3.Size = new System.Drawing.Size(57, 19);
+            this.toolStripTabItem3.Size = new System.Drawing.Size(67, 30);
             this.toolStripTabItem3.Tag = "3";
             this.toolStripTabItem3.Text = "Servicios";
             // 
@@ -225,6 +225,7 @@
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Menu";
             this.Text = "Menu";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             ((System.ComponentModel.ISupportInitialize)(this.ribbonControlAdv1)).EndInit();
             this.ribbonControlAdv1.ResumeLayout(false);
             this.ribbonControlAdv1.PerformLayout();
