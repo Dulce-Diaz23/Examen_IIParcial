@@ -8,7 +8,7 @@ namespace Datoss
 {
     public class ClienteDB
     {
-        string cadena = "server=localhost; user=root; database=factura; password=diaz;";
+        string cadena = "server=localhost; user=root; database=Ticket; password=diaz;";
 
         public bool Insertar(Cliente cliente)
         {

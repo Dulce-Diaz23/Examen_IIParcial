@@ -3,13 +3,14 @@
     public class DetalleTicket
     {
         public string Id { get; set; }
+        public int IdTicket { get; set; }
         public string Articulo { get; set; }
         public string TipoSoporte { get; set; }
         public string Solicitud { get; set; }
         public string Respuesta { get; set; }
         public int Cantidad { get; set; }
         public decimal precio { get; set; }
-        public int IdTicket { get; set; }
+
         public decimal Total { get; set; }
 
         public DetalleTicket()

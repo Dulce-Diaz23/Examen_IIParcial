@@ -49,12 +49,12 @@
             this.label8 = new System.Windows.Forms.Label();
             this.SolicitudTextBox = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
-            this.DetalleDataGridView = new System.Windows.Forms.DataGridView();
+            this.PrecioTextBox = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
+            this.DetalleDataGridView = new System.Windows.Forms.DataGridView();
             this.label10 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
-            this.PrecioTextBox = new System.Windows.Forms.TextBox();
             this.isvTextBox = new System.Windows.Forms.TextBox();
             this.DescuentoTextBox = new System.Windows.Forms.TextBox();
             this.TotalTextBox = new System.Windows.Forms.TextBox();
@@ -274,15 +274,13 @@
             this.label7.TabIndex = 4;
             this.label7.Text = "Descripcion solicitud:";
             // 
-            // DetalleDataGridView
+            // PrecioTextBox
             // 
-            this.DetalleDataGridView.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.DetalleDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.DetalleDataGridView.Location = new System.Drawing.Point(1, 316);
-            this.DetalleDataGridView.Name = "DetalleDataGridView";
-            this.DetalleDataGridView.Size = new System.Drawing.Size(873, 126);
-            this.DetalleDataGridView.TabIndex = 5;
+            this.PrecioTextBox.Location = new System.Drawing.Point(760, 21);
+            this.PrecioTextBox.Name = "PrecioTextBox";
+            this.PrecioTextBox.Size = new System.Drawing.Size(100, 22);
+            this.PrecioTextBox.TabIndex = 10;
+            this.PrecioTextBox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.PrecioTextBox_KeyPress);
             // 
             // label9
             // 
@@ -292,6 +290,17 @@
             this.label9.Size = new System.Drawing.Size(49, 16);
             this.label9.TabIndex = 6;
             this.label9.Text = "Precio:";
+            // 
+            // DetalleDataGridView
+            // 
+            this.DetalleDataGridView.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.DetalleDataGridView.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.DetalleDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.DetalleDataGridView.Location = new System.Drawing.Point(1, 316);
+            this.DetalleDataGridView.Name = "DetalleDataGridView";
+            this.DetalleDataGridView.Size = new System.Drawing.Size(873, 126);
+            this.DetalleDataGridView.TabIndex = 5;
             // 
             // label10
             // 
@@ -320,14 +329,6 @@
             this.label12.TabIndex = 9;
             this.label12.Text = "Total:";
             // 
-            // PrecioTextBox
-            // 
-            this.PrecioTextBox.Location = new System.Drawing.Point(760, 21);
-            this.PrecioTextBox.Name = "PrecioTextBox";
-            this.PrecioTextBox.Size = new System.Drawing.Size(100, 22);
-            this.PrecioTextBox.TabIndex = 10;
-            this.PrecioTextBox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.PrecioTextBox_KeyPress);
-            // 
             // isvTextBox
             // 
             this.isvTextBox.Location = new System.Drawing.Point(773, 477);
@@ -342,6 +343,7 @@
             this.DescuentoTextBox.Name = "DescuentoTextBox";
             this.DescuentoTextBox.Size = new System.Drawing.Size(100, 22);
             this.DescuentoTextBox.TabIndex = 12;
+            this.DescuentoTextBox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.DescuentoTextBox_KeyPress);
             // 
             // TotalTextBox
             // 
@@ -370,6 +372,7 @@
             this.GuardarButton.TabIndex = 15;
             this.GuardarButton.Text = "Guardar";
             this.GuardarButton.UseVisualStyleBackColor = false;
+            this.GuardarButton.Click += new System.EventHandler(this.GuardarButton_Click);
             // 
             // TicketForm
             // 
