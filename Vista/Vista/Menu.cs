@@ -29,5 +29,12 @@ namespace Vista
             ticketForm.MdiParent = this;
             ticketForm.Show();
         }
+
+
+
+        private void backStageButton1_Click_1(object sender, System.EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

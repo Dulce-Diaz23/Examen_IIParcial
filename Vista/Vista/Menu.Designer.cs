@@ -28,141 +28,44 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.ribbonControlAdv1 = new Syncfusion.Windows.Forms.Tools.RibbonControlAdv();
+            this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Menu));
             this.toolStripTabItem1 = new Syncfusion.Windows.Forms.Tools.ToolStripTabItem();
-            this.toolStripTabItem2 = new Syncfusion.Windows.Forms.Tools.ToolStripTabItem();
-            this.toolStripEx3 = new Syncfusion.Windows.Forms.Tools.ToolStripEx();
-            this.toolStripTabItem3 = new Syncfusion.Windows.Forms.Tools.ToolStripTabItem();
-            this.toolStripEx1 = new Syncfusion.Windows.Forms.Tools.ToolStripEx();
             this.toolStripEx2 = new Syncfusion.Windows.Forms.Tools.ToolStripEx();
             this.UsuarioToolStripButton = new System.Windows.Forms.ToolStripButton();
+            this.toolStripTabItem2 = new Syncfusion.Windows.Forms.Tools.ToolStripTabItem();
+            this.toolStripEx3 = new Syncfusion.Windows.Forms.Tools.ToolStripEx();
             this.ClienteToolStripButton = new System.Windows.Forms.ToolStripButton();
+            this.toolStripTabItem3 = new Syncfusion.Windows.Forms.Tools.ToolStripTabItem();
+            this.toolStripEx1 = new Syncfusion.Windows.Forms.Tools.ToolStripEx();
             this.TicketToolStripButton = new System.Windows.Forms.ToolStripButton();
-            ((System.ComponentModel.ISupportInitialize)(this.ribbonControlAdv1)).BeginInit();
-            this.ribbonControlAdv1.SuspendLayout();
-            this.toolStripTabItem1.Panel.SuspendLayout();
-            this.toolStripTabItem2.Panel.SuspendLayout();
-            this.toolStripEx3.SuspendLayout();
-            this.toolStripTabItem3.Panel.SuspendLayout();
-            this.toolStripEx1.SuspendLayout();
+            this.tabbedMDIManager1 = new Syncfusion.Windows.Forms.Tools.TabbedMDIManager(this.components);
+            this.ribbonControlAdv1 = new Syncfusion.Windows.Forms.Tools.RibbonControlAdv();
+            this.backStageView1 = new Syncfusion.Windows.Forms.BackStageView(this.components);
+            this.backStage1 = new Syncfusion.Windows.Forms.BackStage();
+            this.backStageButton1 = new Syncfusion.Windows.Forms.BackStageButton();
             this.toolStripEx2.SuspendLayout();
+            this.toolStripEx3.SuspendLayout();
+            this.toolStripEx1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.ribbonControlAdv1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.backStage1)).BeginInit();
+            this.backStage1.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // ribbonControlAdv1
-            // 
-            this.ribbonControlAdv1.Dock = Syncfusion.Windows.Forms.Tools.DockStyleEx.Top;
-            this.ribbonControlAdv1.Font = new System.Drawing.Font("Segoe UI", 8.25F);
-            this.ribbonControlAdv1.Header.AddMainItem(toolStripTabItem1);
-            this.ribbonControlAdv1.Header.AddMainItem(toolStripTabItem2);
-            this.ribbonControlAdv1.Header.AddMainItem(toolStripTabItem3);
-            this.ribbonControlAdv1.Location = new System.Drawing.Point(0, 0);
-            this.ribbonControlAdv1.MenuButtonFont = new System.Drawing.Font("Segoe UI", 8.25F);
-            this.ribbonControlAdv1.MenuButtonText = "";
-            this.ribbonControlAdv1.MenuButtonWidth = 56;
-            this.ribbonControlAdv1.MenuColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(114)))), ((int)(((byte)(198)))));
-            this.ribbonControlAdv1.Name = "ribbonControlAdv1";
-            this.ribbonControlAdv1.OfficeColorScheme = Syncfusion.Windows.Forms.Tools.ToolStripEx.ColorScheme.Managed;
-            // 
-            // ribbonControlAdv1.OfficeMenu
-            // 
-            this.ribbonControlAdv1.OfficeMenu.Name = "OfficeMenu";
-            this.ribbonControlAdv1.OfficeMenu.ShowItemToolTips = true;
-            this.ribbonControlAdv1.OfficeMenu.Size = new System.Drawing.Size(12, 65);
-            this.ribbonControlAdv1.QuickPanelImageLayout = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.ribbonControlAdv1.RibbonHeaderImage = Syncfusion.Windows.Forms.Tools.RibbonHeaderImage.None;
-            this.ribbonControlAdv1.RibbonStyle = Syncfusion.Windows.Forms.Tools.RibbonStyle.Office2016;
-            this.ribbonControlAdv1.SelectedTab = this.toolStripTabItem3;
-            this.ribbonControlAdv1.ShowRibbonDisplayOptionButton = true;
-            this.ribbonControlAdv1.Size = new System.Drawing.Size(649, 143);
-            this.ribbonControlAdv1.SystemText.QuickAccessDialogDropDownName = "Start menu";
-            this.ribbonControlAdv1.SystemText.RenameDisplayLabelText = "&Display Name:";
-            this.ribbonControlAdv1.TabIndex = 0;
-            this.ribbonControlAdv1.Text = "ribbonControlAdv1";
-            this.ribbonControlAdv1.ThemeName = "Office2016";
-            this.ribbonControlAdv1.ThemeStyle.MoreCommandsStyle.PropertyGridViewBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(171)))), ((int)(((byte)(171)))), ((int)(((byte)(171)))));
             // 
             // toolStripTabItem1
             // 
             this.toolStripTabItem1.Name = "toolStripTabItem1";
             // 
-            // ribbonControlAdv1.ribbonPanel1
             // 
-            this.toolStripTabItem1.Panel.Controls.Add(this.toolStripEx2);
+            // 
+            this.toolStripTabItem1.Panel.AllowDrop = true;
             this.toolStripTabItem1.Panel.Name = "ribbonPanel1";
             this.toolStripTabItem1.Panel.ScrollPosition = 0;
             this.toolStripTabItem1.Panel.TabIndex = 2;
-            this.toolStripTabItem1.Panel.Text = "Administracion de Usuarios";
-            this.toolStripTabItem1.Position = 0;
+            this.toolStripTabItem1.Position = -1;
             this.toolStripTabItem1.Size = new System.Drawing.Size(164, 30);
             this.toolStripTabItem1.Tag = "1";
             this.toolStripTabItem1.Text = "Administracion de Usuarios";
-            // 
-            // toolStripTabItem2
-            // 
-            this.toolStripTabItem2.Name = "toolStripTabItem2";
-            // 
-            // ribbonControlAdv1.ribbonPanel2
-            // 
-            this.toolStripTabItem2.Panel.Controls.Add(this.toolStripEx3);
-            this.toolStripTabItem2.Panel.Name = "ribbonPanel2";
-            this.toolStripTabItem2.Panel.ScrollPosition = 0;
-            this.toolStripTabItem2.Panel.TabIndex = 3;
-            this.toolStripTabItem2.Panel.Text = "Administracion de Clientes";
-            this.toolStripTabItem2.Position = 1;
-            this.toolStripTabItem2.Size = new System.Drawing.Size(160, 30);
-            this.toolStripTabItem2.Tag = "2";
-            this.toolStripTabItem2.Text = "Administracion de Clientes";
-            // 
-            // toolStripEx3
-            // 
-            this.toolStripEx3.Dock = System.Windows.Forms.DockStyle.None;
-            this.toolStripEx3.Font = new System.Drawing.Font("Segoe UI", 8.25F);
-            this.toolStripEx3.ForeColor = System.Drawing.Color.MidnightBlue;
-            this.toolStripEx3.GripStyle = System.Windows.Forms.ToolStripGripStyle.Hidden;
-            this.toolStripEx3.Image = null;
-            this.toolStripEx3.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.ClienteToolStripButton});
-            this.toolStripEx3.Location = new System.Drawing.Point(0, 1);
-            this.toolStripEx3.Name = "toolStripEx3";
-            this.toolStripEx3.Office12Mode = false;
-            this.toolStripEx3.Padding = new System.Windows.Forms.Padding(3, 0, 0, 0);
-            this.toolStripEx3.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.toolStripEx3.Size = new System.Drawing.Size(61, 77);
-            this.toolStripEx3.TabIndex = 0;
-            // 
-            // toolStripTabItem3
-            // 
-            this.toolStripTabItem3.Name = "toolStripTabItem3";
-            // 
-            // ribbonControlAdv1.ribbonPanel3
-            // 
-            this.toolStripTabItem3.Panel.Controls.Add(this.toolStripEx1);
-            this.toolStripTabItem3.Panel.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.toolStripTabItem3.Panel.Name = "ribbonPanel3";
-            this.toolStripTabItem3.Panel.ScrollPosition = 0;
-            this.toolStripTabItem3.Panel.TabIndex = 4;
-            this.toolStripTabItem3.Panel.Text = "Servicios";
-            this.toolStripTabItem3.Position = 2;
-            this.toolStripTabItem3.Size = new System.Drawing.Size(67, 30);
-            this.toolStripTabItem3.Tag = "3";
-            this.toolStripTabItem3.Text = "Servicios";
-            // 
-            // toolStripEx1
-            // 
-            this.toolStripEx1.Dock = System.Windows.Forms.DockStyle.None;
-            this.toolStripEx1.Font = new System.Drawing.Font("Segoe UI", 8.25F);
-            this.toolStripEx1.ForeColor = System.Drawing.Color.MidnightBlue;
-            this.toolStripEx1.GripStyle = System.Windows.Forms.ToolStripGripStyle.Hidden;
-            this.toolStripEx1.Image = null;
-            this.toolStripEx1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.TicketToolStripButton});
-            this.toolStripEx1.Location = new System.Drawing.Point(0, 1);
-            this.toolStripEx1.Name = "toolStripEx1";
-            this.toolStripEx1.Office12Mode = false;
-            this.toolStripEx1.Padding = new System.Windows.Forms.Padding(3, 0, 0, 0);
-            this.toolStripEx1.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.toolStripEx1.Size = new System.Drawing.Size(86, 77);
-            this.toolStripEx1.TabIndex = 0;
             // 
             // toolStripEx2
             // 
@@ -187,10 +90,42 @@
             this.UsuarioToolStripButton.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.UsuarioToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.UsuarioToolStripButton.Name = "UsuarioToolStripButton";
-            this.UsuarioToolStripButton.Size = new System.Drawing.Size(56, 58);
+            this.UsuarioToolStripButton.Size = new System.Drawing.Size(56, 74);
             this.UsuarioToolStripButton.Text = "Usuarios";
             this.UsuarioToolStripButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.UsuarioToolStripButton.Click += new System.EventHandler(this.UsuarioToolStripButton_Click);
+            // 
+            // toolStripTabItem2
+            // 
+            this.toolStripTabItem2.Name = "toolStripTabItem2";
+            // 
+            // 
+            // 
+            this.toolStripTabItem2.Panel.AllowDrop = true;
+            this.toolStripTabItem2.Panel.Name = "ribbonPanel2";
+            this.toolStripTabItem2.Panel.ScrollPosition = 0;
+            this.toolStripTabItem2.Panel.TabIndex = 3;
+            this.toolStripTabItem2.Position = -1;
+            this.toolStripTabItem2.Size = new System.Drawing.Size(160, 30);
+            this.toolStripTabItem2.Tag = "2";
+            this.toolStripTabItem2.Text = "Administracion de Clientes";
+            // 
+            // toolStripEx3
+            // 
+            this.toolStripEx3.Dock = System.Windows.Forms.DockStyle.None;
+            this.toolStripEx3.Font = new System.Drawing.Font("Segoe UI", 8.25F);
+            this.toolStripEx3.ForeColor = System.Drawing.Color.MidnightBlue;
+            this.toolStripEx3.GripStyle = System.Windows.Forms.ToolStripGripStyle.Hidden;
+            this.toolStripEx3.Image = null;
+            this.toolStripEx3.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.ClienteToolStripButton});
+            this.toolStripEx3.Location = new System.Drawing.Point(0, 1);
+            this.toolStripEx3.Name = "toolStripEx3";
+            this.toolStripEx3.Office12Mode = false;
+            this.toolStripEx3.Padding = new System.Windows.Forms.Padding(3, 0, 0, 0);
+            this.toolStripEx3.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.toolStripEx3.Size = new System.Drawing.Size(61, 77);
+            this.toolStripEx3.TabIndex = 0;
             // 
             // ClienteToolStripButton
             // 
@@ -198,10 +133,43 @@
             this.ClienteToolStripButton.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.ClienteToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.ClienteToolStripButton.Name = "ClienteToolStripButton";
-            this.ClienteToolStripButton.Size = new System.Drawing.Size(52, 58);
+            this.ClienteToolStripButton.Size = new System.Drawing.Size(52, 74);
             this.ClienteToolStripButton.Text = "Clientes";
             this.ClienteToolStripButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.ClienteToolStripButton.Click += new System.EventHandler(this.ClienteToolStripButton_Click);
+            // 
+            // toolStripTabItem3
+            // 
+            this.toolStripTabItem3.Name = "toolStripTabItem3";
+            // 
+            // 
+            // 
+            this.toolStripTabItem3.Panel.AllowDrop = true;
+            this.toolStripTabItem3.Panel.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.toolStripTabItem3.Panel.Name = "ribbonPanel3";
+            this.toolStripTabItem3.Panel.ScrollPosition = 0;
+            this.toolStripTabItem3.Panel.TabIndex = 4;
+            this.toolStripTabItem3.Position = -1;
+            this.toolStripTabItem3.Size = new System.Drawing.Size(67, 30);
+            this.toolStripTabItem3.Tag = "3";
+            this.toolStripTabItem3.Text = "Servicios";
+            // 
+            // toolStripEx1
+            // 
+            this.toolStripEx1.Dock = System.Windows.Forms.DockStyle.None;
+            this.toolStripEx1.Font = new System.Drawing.Font("Segoe UI", 8.25F);
+            this.toolStripEx1.ForeColor = System.Drawing.Color.MidnightBlue;
+            this.toolStripEx1.GripStyle = System.Windows.Forms.ToolStripGripStyle.Hidden;
+            this.toolStripEx1.Image = null;
+            this.toolStripEx1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.TicketToolStripButton});
+            this.toolStripEx1.Location = new System.Drawing.Point(0, 1);
+            this.toolStripEx1.Name = "toolStripEx1";
+            this.toolStripEx1.Office12Mode = false;
+            this.toolStripEx1.Padding = new System.Windows.Forms.Padding(3, 0, 0, 0);
+            this.toolStripEx1.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.toolStripEx1.Size = new System.Drawing.Size(86, 77);
+            this.toolStripEx1.TabIndex = 0;
             // 
             // TicketToolStripButton
             // 
@@ -209,45 +177,117 @@
             this.TicketToolStripButton.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.TicketToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.TicketToolStripButton.Name = "TicketToolStripButton";
-            this.TicketToolStripButton.Size = new System.Drawing.Size(77, 58);
+            this.TicketToolStripButton.Size = new System.Drawing.Size(77, 74);
             this.TicketToolStripButton.Text = "Nuevo Ticket";
             this.TicketToolStripButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.TicketToolStripButton.Click += new System.EventHandler(this.TicketToolStripButton_Click);
+            // 
+            // tabbedMDIManager1
+            // 
+            this.tabbedMDIManager1.AttachedTo = this;
+            this.tabbedMDIManager1.CloseButtonBackColor = System.Drawing.Color.White;
+            this.tabbedMDIManager1.CloseButtonToolTip = "";
+            this.tabbedMDIManager1.DropDownButtonToolTip = "";
+            this.tabbedMDIManager1.ImageSize = new System.Drawing.Size(16, 16);
+            this.tabbedMDIManager1.NeedUpdateHostedForm = false;
+            this.tabbedMDIManager1.ShowCloseButton = true;
+            this.tabbedMDIManager1.TabStyle = typeof(Syncfusion.Windows.Forms.Tools.TabRendererOffice2016Colorful);
+            this.tabbedMDIManager1.ThemeName = "TabRendererOffice2016Colorful";
+            // 
+            // ribbonControlAdv1
+            // 
+            this.ribbonControlAdv1.Dock = Syncfusion.Windows.Forms.Tools.DockStyleEx.Top;
+            this.ribbonControlAdv1.Font = new System.Drawing.Font("Segoe UI", 8.25F);
+            this.ribbonControlAdv1.Location = new System.Drawing.Point(0, 0);
+            this.ribbonControlAdv1.MenuButtonFont = new System.Drawing.Font("Segoe UI", 8.25F);
+            this.ribbonControlAdv1.MenuButtonText = "";
+            this.ribbonControlAdv1.MenuButtonWidth = 56;
+            this.ribbonControlAdv1.MenuColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(114)))), ((int)(((byte)(198)))));
+            this.ribbonControlAdv1.Name = "ribbonControlAdv1";
+            this.ribbonControlAdv1.OfficeColorScheme = Syncfusion.Windows.Forms.Tools.ToolStripEx.ColorScheme.Managed;
+            // 
+            // ribbonControlAdv1.OfficeMenu
+            // 
+            this.ribbonControlAdv1.OfficeMenu.Name = "OfficeMenu";
+            this.ribbonControlAdv1.OfficeMenu.ShowItemToolTips = true;
+            this.ribbonControlAdv1.OfficeMenu.Size = new System.Drawing.Size(12, 65);
+            this.ribbonControlAdv1.QuickPanelImageLayout = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.ribbonControlAdv1.QuickPanelVisible = false;
+            this.ribbonControlAdv1.RibbonHeaderImage = Syncfusion.Windows.Forms.Tools.RibbonHeaderImage.None;
+            this.ribbonControlAdv1.RibbonStyle = Syncfusion.Windows.Forms.Tools.RibbonStyle.Office2016;
+            this.ribbonControlAdv1.SelectedTab = null;
+            this.ribbonControlAdv1.ShowRibbonDisplayOptionButton = true;
+            this.ribbonControlAdv1.Size = new System.Drawing.Size(649, 143);
+            this.ribbonControlAdv1.SystemText.QuickAccessDialogDropDownName = "Start menu";
+            this.ribbonControlAdv1.SystemText.RenameDisplayLabelText = "&Display Name:";
+            this.ribbonControlAdv1.TabIndex = 0;
+            this.ribbonControlAdv1.Text = "ribbonControlAdv1";
+            this.ribbonControlAdv1.ThemeName = "Office2016";
+            this.ribbonControlAdv1.ThemeStyle.MoreCommandsStyle.PropertyGridViewBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(171)))), ((int)(((byte)(171)))), ((int)(((byte)(171)))));
+            // 
+            // backStageView1
+            // 
+            this.backStageView1.BackStage = this.backStage1;
+            this.backStageView1.HostControl = null;
+            this.backStageView1.HostForm = this;
+            // 
+            // backStage1
+            // 
+            this.backStage1.AllowDrop = true;
+            this.backStage1.BeforeTouchSize = new System.Drawing.Size(663, 335);
+            this.backStage1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.backStage1.ChildItemSize = new System.Drawing.Size(80, 140);
+            this.backStage1.Controls.Add(this.backStageButton1);
+            this.backStage1.Font = new System.Drawing.Font("Segoe UI", 8.25F);
+            this.backStage1.ItemSize = new System.Drawing.Size(138, 40);
+            this.backStage1.Location = new System.Drawing.Point(4, 53);
+            this.backStage1.MinimumSize = new System.Drawing.Size(100, 53);
+            this.backStage1.Name = "backStage1";
+            this.backStage1.OfficeColorScheme = Syncfusion.Windows.Forms.Tools.ToolStripEx.ColorScheme.Blue;
+            this.backStage1.Size = new System.Drawing.Size(663, 335);
+            this.backStage1.TabIndex = 1;
+            this.backStage1.ThemeName = "BackStage2016Renderer";
+            // 
+            // backStageButton1
+            // 
+            this.backStageButton1.Accelerator = "";
+            this.backStageButton1.BackColor = System.Drawing.Color.Transparent;
+            this.backStageButton1.Location = new System.Drawing.Point(0, 10);
+            this.backStageButton1.Name = "backStageButton1";
+            this.backStageButton1.Placement = Syncfusion.Windows.Forms.BackStageItemPlacement.Top;
+            this.backStageButton1.Size = new System.Drawing.Size(137, 33);
+            this.backStageButton1.TabIndex = 3;
+            this.backStageButton1.Text = "Salir";
+            this.backStageButton1.Click += new System.EventHandler(this.backStageButton1_Click_1);
             // 
             // Menu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(649, 348);
+            this.Controls.Add(this.backStage1);
             this.Controls.Add(this.ribbonControlAdv1);
+            this.Cursor = System.Windows.Forms.Cursors.Default;
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.IsMdiContainer = true;
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Menu";
             this.Text = "Menu";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
-            ((System.ComponentModel.ISupportInitialize)(this.ribbonControlAdv1)).EndInit();
-            this.ribbonControlAdv1.ResumeLayout(false);
-            this.ribbonControlAdv1.PerformLayout();
-            this.toolStripTabItem1.Panel.ResumeLayout(false);
-            this.toolStripTabItem1.Panel.PerformLayout();
-            this.toolStripTabItem2.Panel.ResumeLayout(false);
-            this.toolStripTabItem2.Panel.PerformLayout();
-            this.toolStripEx3.ResumeLayout(false);
-            this.toolStripEx3.PerformLayout();
-            this.toolStripTabItem3.Panel.ResumeLayout(false);
-            this.toolStripTabItem3.Panel.PerformLayout();
-            this.toolStripEx1.ResumeLayout(false);
-            this.toolStripEx1.PerformLayout();
             this.toolStripEx2.ResumeLayout(false);
             this.toolStripEx2.PerformLayout();
+            this.toolStripEx3.ResumeLayout(false);
+            this.toolStripEx3.PerformLayout();
+            this.toolStripEx1.ResumeLayout(false);
+            this.toolStripEx1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.ribbonControlAdv1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.backStage1)).EndInit();
+            this.backStage1.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
 
         #endregion
-
-        private Syncfusion.Windows.Forms.Tools.RibbonControlAdv ribbonControlAdv1;
         private Syncfusion.Windows.Forms.Tools.ToolStripTabItem toolStripTabItem1;
         private Syncfusion.Windows.Forms.Tools.ToolStripTabItem toolStripTabItem2;
         private Syncfusion.Windows.Forms.Tools.ToolStripEx toolStripEx2;
@@ -257,5 +297,10 @@
         private System.Windows.Forms.ToolStripButton TicketToolStripButton;
         private Syncfusion.Windows.Forms.Tools.ToolStripEx toolStripEx3;
         private System.Windows.Forms.ToolStripButton ClienteToolStripButton;
+        private Syncfusion.Windows.Forms.Tools.TabbedMDIManager tabbedMDIManager1;
+        private Syncfusion.Windows.Forms.Tools.RibbonControlAdv ribbonControlAdv1;
+        private Syncfusion.Windows.Forms.BackStageView backStageView1;
+        private Syncfusion.Windows.Forms.BackStage backStage1;
+        private Syncfusion.Windows.Forms.BackStageButton backStageButton1;
     }
 }
